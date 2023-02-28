@@ -1,4 +1,4 @@
-# RockMech_SlopeCal
+# 岩石模量计算平台
 Slope Calculator for Rock Mech
 
 ## 使用说明
@@ -9,11 +9,11 @@ Step.1 文件路径不能出现中文
 
 Step.2 将文件存成CSV格式  
 
-Step.3 CSV文件列数为2~4，第一行为列名，应保证不存在缺项行或NULL值。示例如下：  
+Step.3 CSV文件列数为2~4，第一行为列名；文件数据应保证不存在缺项行或NULL值。示例如下：  
 
-<img width="368" alt="image" src="https://user-images.githubusercontent.com/73735669/221839810-9d57cd41-71ff-4672-af36-4ea7753a18ee.png">  
+<img width="368" alt="image" src="https://user-images.githubusercontent.com/73735669/221839810-9d57cd41-71ff-4672-af36-4ea7753a18ee.png">    
 
-
+Step.4 文件最后一列为【应力】
 
 ### 软件操作说明
 
@@ -41,6 +41,18 @@ Step.3 CSV文件列数为2~4，第一行为列名，应保证不存在缺项行�
 
 <img width="516" alt="image" src="https://user-images.githubusercontent.com/73735669/221842567-fc3016d6-7999-443b-9c94-41ffb6b5c188.png">   
 
+确认所有输入信息正确后，点击<开始计算>按钮，等待数秒后，等待弹出<计算成功！>表明计算结束。  
+
+<img width="516" alt="image" src="https://user-images.githubusercontent.com/73735669/221843270-4bc5dcd4-f494-4804-818a-7d98f535327a.png">   
+
+### 输出文件说明
+
+输出文件与输入文件相同，文件名带有output字样为输出文件，例如：   
+
+<img width="195" alt="image" src="https://user-images.githubusercontent.com/73735669/221844178-2b225937-2617-43ea-b7b7-83c17c2e09fb.png">   
+
+输出文件列对应项与源文件相同。例如，源文件输入列分别为：【轴向应变】，【环向应变】，【体积应变】和【应力】，则输出列分别为【轴向模量】，【环向模量】和【体积模量】。  
+
 
 
 
@@ -49,4 +61,8 @@ Step.3 CSV文件列数为2~4，第一行为列名，应保证不存在缺项行�
 
 
 ## 作者介绍
-四川大学本科2020级，力学软件专业搬砖工
+本科2020级，力学软件专业搬砖工   
+
+四川大学深地科学与工程教育部重点实验室 刘迪   
+
+Email: di_liu9@outlook.com
